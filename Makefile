@@ -6,13 +6,13 @@
 #    By: xroca-pe <xroca-pe@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/14 13:37:42 by xroca-pe          #+#    #+#              #
-#    Updated: 2024/04/02 12:12:36 by xroca-pe         ###   ########.fr        #
+#    Updated: 2024/04/03 11:59:02 by xroca-pe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fdf
 CC = cc 
-CFLAGS = -Wall -Werror -Wextra #-g -fsanitize=address
+CFLAGS = -Wall -Werror -Wextra
 MXFLAGS = -Lmlx -lmlx -framework OpenGL -framework AppKit -lm
 RM = rm -f 
 INCLUDE = Makefile
